@@ -238,6 +238,153 @@ export default function Index() {
         </div>
       </section>
 
+      {/* Professional Advantages */}
+      <section className="py-20 px-4 bg-gradient-to-br from-brand-50 to-tech-blue/10">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <Badge className="mb-4 bg-brand-600 text-white">
+              Ventajas Profesionales
+            </Badge>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              Preparación Integral para el Mercado Global
+            </h2>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              No solo aprendes a programar, te preparamos para destacar en entrevistas técnicas
+              y trabajar con las herramientas que usan las mejores empresas del mundo.
+            </p>
+          </div>
+
+          <div className="grid lg:grid-cols-3 gap-8 mb-12">
+            <Card className="border-0 shadow-lg">
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2 text-xl">
+                  <Briefcase className="h-6 w-6 text-brand-600" />
+                  Asesoría en Entrevistas
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-3">
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="h-4 w-4 text-tech-green" />
+                    <span className="text-sm">6 meses de seguimiento post-graduación</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="h-4 w-4 text-tech-green" />
+                    <span className="text-sm">Proyectos reales en tu portafolio</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="h-4 w-4 text-tech-green" />
+                    <span className="text-sm">Simulacros de entrevistas técnicas</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="h-4 w-4 text-tech-green" />
+                    <span className="text-sm">Herramientas actuales del mercado internacional</span>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="border-0 shadow-lg">
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2 text-xl">
+                  <Star className="h-6 w-6 text-brand-600" />
+                  Certificaciones Incluidas
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-4">
+                  <div className="border border-gray-200 rounded-lg p-3">
+                    <div className="font-medium text-sm text-gray-900 mb-1">
+                      ✅ MySQL Developer Certification - Oracle
+                    </div>
+                    <div className="text-xs text-gray-600">
+                      Expertise en diseño de bases de datos relacionales, consultas y optimización
+                    </div>
+                  </div>
+                  <div className="border border-gray-200 rounded-lg p-3">
+                    <div className="font-medium text-sm text-gray-900 mb-1">
+                      ✅ Scrum Foundations Professional Certificate - CertiProf
+                    </div>
+                    <div className="text-xs text-gray-600">
+                      Principios Agile, roles de Scrum, eventos y artefactos
+                    </div>
+                  </div>
+                  <div className="border border-gray-200 rounded-lg p-3">
+                    <div className="font-medium text-sm text-gray-900 mb-1">
+                      ✅ AWS Certified Developer - Associate
+                    </div>
+                    <div className="text-xs text-gray-600">
+                      Desarrollo y mantenimiento de aplicaciones en AWS
+                    </div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="border-0 shadow-lg">
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2 text-xl">
+                  <Code className="h-6 w-6 text-brand-600" />
+                  Entorno Empresarial Real
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-3">
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="h-4 w-4 text-tech-green" />
+                    <span className="text-sm">Práctica con Jira y herramientas corporativas</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="h-4 w-4 text-tech-green" />
+                    <span className="text-sm">Algoritmos de empresas tecnológicas líderes</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="h-4 w-4 text-tech-green" />
+                    <span className="text-sm">Metodologías ágiles en proyectos reales</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="h-4 w-4 text-tech-green" />
+                    <span className="text-sm">Code reviews y mejores prácticas</span>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+
+          <Card className="border-0 shadow-xl bg-gradient-to-r from-brand-600 to-tech-blue text-white">
+            <CardContent className="p-8">
+              <div className="text-center">
+                <h3 className="text-2xl font-bold mb-4">
+                  🏆 Preparación para Empresas de Elite Tecnológica
+                </h3>
+                <p className="text-white/90 mb-6 max-w-3xl mx-auto">
+                  Domina los algoritmos y estructuras de datos que evalúan las empresas tecnológicas
+                  más prestigiosas del mundo. Entrena con problemas reales de entrevistas técnicas.
+                </p>
+                <div className="grid md:grid-cols-4 gap-4 text-sm">
+                  <div className="bg-white/10 rounded-lg p-3">
+                    <div className="font-medium">Two Pointers</div>
+                    <div className="text-white/70">Proyectos reales</div>
+                  </div>
+                  <div className="bg-white/10 rounded-lg p-3">
+                    <div className="font-medium">Dynamic Programming</div>
+                    <div className="text-white/70">Optimización avanzada</div>
+                  </div>
+                  <div className="bg-white/10 rounded-lg p-3">
+                    <div className="font-medium">Graph Algorithms</div>
+                    <div className="text-white/70">Sistemas distribuidos</div>
+                  </div>
+                  <div className="bg-white/10 rounded-lg p-3">
+                    <div className="font-medium">System Design</div>
+                    <div className="text-white/70">Arquitectura escalable</div>
+                  </div>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+      </section>
+
       {/* Global Developer Ranking */}
       <section className="py-20 px-4 bg-gray-50">
         <div className="max-w-7xl mx-auto">
