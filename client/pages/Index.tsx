@@ -344,6 +344,12 @@ export default function Index() {
                     </div>
                     <div className="flex items-center justify-between">
                       <span className="text-white/90">Meta 2027:</span>
+                      <Badge className="bg-blue-400 text-blue-900">
+                        #10 Mundial
+                      </Badge>
+                    </div>
+                    <div className="flex items-center justify-between">
+                      <span className="text-white/90">Meta 2040:</span>
                       <Badge className="bg-green-400 text-green-900">
                         #5 Mundial
                       </Badge>
@@ -475,7 +481,7 @@ export default function Index() {
                     ))}
                   </div>
                   <p className="text-sm text-gray-500 mt-4">
-                    �� Un perfil bilingüe puede aumentar tu acceso a estos rangos salariales y abrir puertas en mercados internacionales.
+                    💡 Un perfil bilingüe puede aumentar tu acceso a estos rangos salariales y abrir puertas en mercados internacionales.
                   </p>
                 </CardContent>
               </Card>
@@ -621,7 +627,7 @@ export default function Index() {
           </div>
           
           <div className="text-white/80 text-sm">
-            📍 Ciudad de México, México | 🌐 Programa 100% Bilingüe | 💼 Garantía de Empleabilidad
+            📍 Ciudad de México, México | 🌐 Programa Bilingüe | 💼 Garantía de Empleabilidad
           </div>
         </div>
       </section>
