@@ -311,6 +311,9 @@ export default function Index() {
                       </p>
                     </div>
                     <div className="mt-4 p-3 bg-white/10 rounded">
+                      <p className="text-xs mb-2">
+                        📊 <strong>Solo el 23% de programadores latinos habla inglés fluido</strong>
+                      </p>
                       <p className="text-xs">
                         💡 México lidera la segunda posición latina con potencial de
                         superar a Brasil y competir globalmente
