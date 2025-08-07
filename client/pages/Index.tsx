@@ -356,7 +356,7 @@ export default function Index() {
                     </div>
                     <div className="mt-6 p-4 bg-white/10 rounded-lg">
                       <p className="text-sm text-white/90">
-                        <strong>¿Cómo lo lograremos?</strong> Capacitando desarrolladores bilingües
+                        <strong>¿Cómo lo lograremos?</strong> Capacitando desarrolladores latinos bilingües
                         con habilidades técnicas de clase mundial y comunicación internacional.
                       </p>
                     </div>
