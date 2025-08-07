@@ -18,7 +18,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
+    --primary: 217.2 91.2% 59.8%;
     --primary-foreground: 210 40% 98%;
 
     --secondary: 210 40% 96.1%;
@@ -35,25 +35,36 @@
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 217.2 91.2% 59.8%;
 
     --radius: 0.5rem;
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* Brand colors for tech education */
+    --brand-50: 220 100% 97%;
+    --brand-100: 220 100% 94%;
+    --brand-200: 220 100% 88%;
+    --brand-300: 220 100% 80%;
+    --brand-400: 220 100% 70%;
+    --brand-500: 217.2 91.2% 59.8%;
+    --brand-600: 217.2 91.2% 50%;
+    --brand-700: 217.2 91.2% 40%;
+    --brand-800: 217.2 91.2% 30%;
+    --brand-900: 217.2 91.2% 20%;
+
+    /* Tech accent colors */
+    --tech-blue: 217.2 91.2% 59.8%;
+    --tech-green: 120 100% 40%;
+    --tech-purple: 270 91.2% 59.8%;
+    --tech-orange: 25 100% 55%;
   }
 
   .dark {
