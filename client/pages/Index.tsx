@@ -98,7 +98,7 @@ export default function Index() {
     },
     {
       month: 9,
-      title: "Mock Interviews + Portafolio Técnico",
+      title: "Mock Interviews + Portafolio T��cnico",
       color: "bg-teal-500",
       weeks: [
         { week: 33, content: "Estructura de entrevistas técnicas" },
@@ -250,8 +250,76 @@ export default function Index() {
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               México ocupa actualmente la posición #11 en el ranking mundial de desarrolladores.
-              <strong> Nuestro objetivo es posicionar a los mexicanos en el top 5 global.</strong>
+              <strong> Nuestro objetivo es posicionar desarrolladores latinos en el top 5 global.</strong>
             </p>
+          </div>
+
+          <div className="mb-16">
+            <Card className="border-0 shadow-lg">
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2 text-xl">
+                  <Globe className="h-6 w-6 text-tech-orange" />
+                  Desarrolladores Latinos a Nivel Mundial
+                </CardTitle>
+                <CardDescription>
+                  Representación latinoamericana en la industria tecnológica global
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div className="space-y-3">
+                    {[
+                      { country: "🇧🇷 Brasil", developers: "500K", rank: 1, flag: "🥇" },
+                      { country: "🇲🇽 México", developers: "385K", rank: 2, flag: "🥈", highlight: true },
+                      { country: "🇦🇷 Argentina", developers: "180K", rank: 3, flag: "🥉" },
+                      { country: "🇨🇴 Colombia", developers: "125K", rank: 4, flag: "" },
+                      { country: "🇨🇱 Chile", developers: "85K", rank: 5, flag: "" },
+                      { country: "🇵🇪 Perú", developers: "65K", rank: 6, flag: "" },
+                    ].map((item) => (
+                      <div
+                        key={item.rank}
+                        className={`flex items-center justify-between p-3 rounded-lg ${
+                          item.highlight
+                            ? 'bg-brand-50 border-2 border-brand-200'
+                            : 'bg-gray-50'
+                        }`}
+                      >
+                        <div className="flex items-center gap-3">
+                          <span className="text-lg">{item.flag}</span>
+                          <span className={`font-medium ${item.highlight ? 'text-brand-700' : 'text-gray-700'}`}>
+                            {item.country}
+                          </span>
+                        </div>
+                        <span className={`font-bold ${item.highlight ? 'text-brand-600' : 'text-gray-600'}`}>
+                          {item.developers}
+                        </span>
+                      </div>
+                    ))}
+                  </div>
+                  <div className="bg-gradient-to-br from-tech-orange to-yellow-500 text-white p-6 rounded-lg">
+                    <h3 className="text-lg font-bold mb-4">🎯 Misión Latinoamericana</h3>
+                    <div className="space-y-3 text-sm">
+                      <p>
+                        <strong>Meta:</strong> Posicionar desarrolladores latinos en el
+                        <span className="bg-white/20 px-2 py-1 rounded ml-1">Top 5 Mundial</span>
+                      </p>
+                      <p>
+                        <strong>Estrategia:</strong> Formar talento bilingüe competitivo internacionalmente
+                      </p>
+                      <p>
+                        <strong>Impacto:</strong> Representar 15% de desarrolladores globales para 2040
+                      </p>
+                    </div>
+                    <div className="mt-4 p-3 bg-white/10 rounded">
+                      <p className="text-xs">
+                        💡 México lidera la segunda posición latina con potencial de
+                        superar a Brasil y competir globalmente
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -274,7 +342,7 @@ export default function Index() {
                       { country: "🇨🇳 China", developers: "2.0M", rank: 3, bar: "47%" },
                       { country: "🇩🇪 Alemania", developers: "901K", rank: 4, bar: "21%" },
                       { country: "🇬🇧 Reino Unido", developers: "813K", rank: 5, bar: "19%" },
-                      { country: "🇫🇷 Francia", developers: "568K", rank: 6, bar: "13%" },
+                      { country: "🇫���� Francia", developers: "568K", rank: 6, bar: "13%" },
                       { country: "🇨🇦 Canadá", developers: "519K", rank: 7, bar: "12%" },
                       { country: "🇧🇷 Brasil", developers: "500K", rank: 8, bar: "12%" },
                       { country: "🇯🇵 Japón", developers: "454K", rank: 9, bar: "11%" },
