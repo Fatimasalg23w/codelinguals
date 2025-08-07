@@ -598,7 +598,7 @@ export default function Index() {
                       </Badge>
                     </div>
                     <div className="flex items-center justify-between">
-                      <span className="text-white/90">Meta 2025:</span>
+                      <span className="text-white/90">Meta 2026:</span>
                       <Badge className="bg-yellow-400 text-yellow-900">
                         #10 Mundial
                       </Badge>
