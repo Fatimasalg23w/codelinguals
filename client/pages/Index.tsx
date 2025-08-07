@@ -98,7 +98,7 @@ export default function Index() {
     },
     {
       month: 9,
-      title: "Mock Interviews + Portafolio T��cnico",
+      title: "Mock Interviews + Portafolio Técnico",
       color: "bg-teal-500",
       weeks: [
         { week: 33, content: "Estructura de entrevistas técnicas" },
@@ -123,7 +123,7 @@ export default function Index() {
   const salaryData = [
     { level: "Junior (0–3 años)", range: "$46,000 – $71,410", average: "~$58,000" },
     { level: "Intermedio (4–6 años)", range: "$79,916 – $128,000", average: "~$97,000" },
-    { level: "Senior (7+ años)", range: "$84,969 – $138,000", average: "~$111,000" },
+    { level: "Senior (7+ años)", range: "$84,969 ��� $138,000", average: "~$111,000" },
     { level: "Fullstack Developer", range: "$97,155", average: "" }
   ];
 
@@ -342,7 +342,7 @@ export default function Index() {
                       { country: "🇨🇳 China", developers: "2.0M", rank: 3, bar: "47%" },
                       { country: "🇩🇪 Alemania", developers: "901K", rank: 4, bar: "21%" },
                       { country: "🇬🇧 Reino Unido", developers: "813K", rank: 5, bar: "19%" },
-                      { country: "🇫���� Francia", developers: "568K", rank: 6, bar: "13%" },
+                      { country: "🇫🇷 Francia", developers: "568K", rank: 6, bar: "13%" },
                       { country: "🇨🇦 Canadá", developers: "519K", rank: 7, bar: "12%" },
                       { country: "🇧🇷 Brasil", developers: "500K", rank: 8, bar: "12%" },
                       { country: "🇯🇵 Japón", developers: "454K", rank: 9, bar: "11%" },
@@ -390,10 +390,10 @@ export default function Index() {
               <Card className="border-0 shadow-lg bg-gradient-to-br from-brand-500 to-tech-blue text-white">
                 <CardHeader>
                   <CardTitle className="text-2xl text-white">
-                    🎯 Nuestra Meta: Top 5 Mundial
+                    🎯 Nuestra Meta: Latinos en Top 5 Mundial
                   </CardTitle>
                   <CardDescription className="text-white/90">
-                    Elevando el talento mexicano al siguiente nivel
+                    Elevando el talento latinoamericano al siguiente nivel
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -602,7 +602,7 @@ export default function Index() {
                   significativamente al mercado global.
                 </p>
                 <p>
-                  Ofrecemos vías de aprendizaje accesibles en áreas clave como desarrollo web, ciberseguridad, 
+                  Ofrecemos vías de aprendizaje accesibles en ��reas clave como desarrollo web, ciberseguridad, 
                   programación de PLC y redes. Nuestros programas están diseñados para apoyar a quienes desean 
                   explorar y crecer en estos dinámicos campos.
                 </p>
