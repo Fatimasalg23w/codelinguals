@@ -14,7 +14,7 @@ export default function Index() {
       color: "bg-tech-blue",
       weeks: [
         { week: 1, content: "HTML, CSS, JS + Proyecto de landing page" },
-        { week: 2, content: "Diseño responsivo + Figma + Media queries" },
+        { week: 2, content: "Dise��o responsivo + Figma + Media queries" },
         { week: 3, content: "Git + GitHub + Proyecto colaborativo en equipo" },
         { week: 4, content: "Introducción a algoritmos + listas, pilas, colas + proyecto visual" }
       ]
@@ -344,7 +344,7 @@ export default function Index() {
                       { country: "🇬🇧 Reino Unido", developers: "813K", rank: 5, bar: "19%" },
                       { country: "🇫🇷 Francia", developers: "568K", rank: 6, bar: "13%" },
                       { country: "🇨🇦 Canadá", developers: "519K", rank: 7, bar: "12%" },
-                      { country: "��🇷 Brasil", developers: "500K", rank: 8, bar: "12%" },
+                      { country: "🇧🇷 Brasil", developers: "500K", rank: 8, bar: "12%" },
                       { country: "🇯🇵 Japón", developers: "454K", rank: 9, bar: "11%" },
                       { country: "🇦🇺 Australia", developers: "423K", rank: 10, bar: "10%" },
                       { country: "🇲🇽 México", developers: "385K", rank: 11, bar: "9%", highlight: true },
@@ -407,13 +407,13 @@ export default function Index() {
                     <div className="flex items-center justify-between">
                       <span className="text-white/90">Meta 2025:</span>
                       <Badge className="bg-yellow-400 text-yellow-900">
-                        #8 Mundial
+                        #10 Mundial
                       </Badge>
                     </div>
                     <div className="flex items-center justify-between">
                       <span className="text-white/90">Meta 2027:</span>
                       <Badge className="bg-blue-400 text-blue-900">
-                        #10 Mundial
+                        #8 Mundial
                       </Badge>
                     </div>
                     <div className="flex items-center justify-between">
