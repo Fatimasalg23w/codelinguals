@@ -123,7 +123,7 @@ export default function Index() {
   const salaryData = [
     { level: "Junior (0–3 años)", range: "$46,000 – $71,410", average: "~$58,000" },
     { level: "Intermedio (4–6 años)", range: "$79,916 – $128,000", average: "~$97,000" },
-    { level: "Senior (7+ años)", range: "$84,969 ��� $138,000", average: "~$111,000" },
+    { level: "Senior (7+ años)", range: "$84,969 – $138,000", average: "~$111,000" },
     { level: "Fullstack Developer", range: "$97,155", average: "" }
   ];
 
@@ -344,7 +344,7 @@ export default function Index() {
                       { country: "🇬🇧 Reino Unido", developers: "813K", rank: 5, bar: "19%" },
                       { country: "🇫🇷 Francia", developers: "568K", rank: 6, bar: "13%" },
                       { country: "🇨🇦 Canadá", developers: "519K", rank: 7, bar: "12%" },
-                      { country: "🇧🇷 Brasil", developers: "500K", rank: 8, bar: "12%" },
+                      { country: "��🇷 Brasil", developers: "500K", rank: 8, bar: "12%" },
                       { country: "🇯🇵 Japón", developers: "454K", rank: 9, bar: "11%" },
                       { country: "🇦🇺 Australia", developers: "423K", rank: 10, bar: "10%" },
                       { country: "🇲🇽 México", developers: "385K", rank: 11, bar: "9%", highlight: true },
@@ -464,8 +464,8 @@ export default function Index() {
                   </div>
                   <div className="mt-4 p-3 bg-brand-50 rounded-lg">
                     <p className="text-sm text-brand-700 font-medium">
-                      💡 Con formación bilingüe, México puede superar a países
-                      como Japón y Australia en los próximos 3 años.
+                      💡 Con formación bilingüe, los desarrolladores latinos pueden
+                      posicionarse en el top 5 mundial para 2040.
                     </p>
                   </div>
                 </CardContent>
@@ -602,7 +602,7 @@ export default function Index() {
                   significativamente al mercado global.
                 </p>
                 <p>
-                  Ofrecemos vías de aprendizaje accesibles en ��reas clave como desarrollo web, ciberseguridad, 
+                  Ofrecemos vías de aprendizaje accesibles en áreas clave como desarrollo web, ciberseguridad, 
                   programación de PLC y redes. Nuestros programas están diseñados para apoyar a quienes desean 
                   explorar y crecer en estos dinámicos campos.
                 </p>
