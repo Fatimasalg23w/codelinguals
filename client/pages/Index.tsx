@@ -254,6 +254,49 @@ export default function Index() {
             </p>
           </div>
 
+          <div className="mb-16">
+            <Card className="border-0 shadow-xl bg-gradient-to-r from-tech-blue to-brand-600 text-white">
+              <CardContent className="p-8">
+                <div className="text-center mb-8">
+                  <h3 className="text-2xl font-bold mb-4">
+                    ⏰ Metodología de Aprendizaje: 2 Horas Diarias
+                  </h3>
+                  <p className="text-white/90 max-w-2xl mx-auto">
+                    Estructura optimizada para maximizar tu aprendizaje y dominio del inglés técnico
+                  </p>
+                </div>
+                <div className="grid md:grid-cols-3 gap-6">
+                  <div className="bg-white/10 rounded-lg p-6 text-center">
+                    <div className="text-3xl font-bold mb-2">60 min</div>
+                    <div className="font-medium mb-2">Teoría y Aplicación</div>
+                    <div className="text-sm text-white/80">
+                      Conceptos fundamentales con implementación práctica inmediata
+                    </div>
+                  </div>
+                  <div className="bg-white/10 rounded-lg p-6 text-center">
+                    <div className="text-3xl font-bold mb-2">30 min</div>
+                    <div className="font-medium mb-2">Práctica Dirigida</div>
+                    <div className="text-sm text-white/80">
+                      Ejercicios hands-on para reforzar los conocimientos adquiridos
+                    </div>
+                  </div>
+                  <div className="bg-white/10 rounded-lg p-6 text-center">
+                    <div className="text-3xl font-bold mb-2">30 min</div>
+                    <div className="font-medium mb-2">Aplicación en Inglés</div>
+                    <div className="text-sm text-white/80">
+                      Desarrollo de proyectos reales usando terminología técnica en inglés
+                    </div>
+                  </div>
+                </div>
+                <div className="mt-6 text-center">
+                  <p className="text-sm text-white/90">
+                    🎯 <strong>Resultado:</strong> Dominio técnico bilingüe que te diferencia en el mercado global
+                  </p>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+
           <div className="grid lg:grid-cols-3 gap-8 mb-12">
             <Card className="border-0 shadow-lg">
               <CardHeader>
