@@ -238,8 +238,171 @@ export default function Index() {
         </div>
       </section>
 
-      {/* Course Timeline */}
+      {/* Global Developer Ranking */}
       <section className="py-20 px-4 bg-gray-50">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <Badge className="mb-4 bg-brand-100 text-brand-700">
+              Posicionamiento Global
+            </Badge>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              Desarrolladores por Nacionalidad a Nivel Mundial
+            </h2>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              México ocupa actualmente la posición #11 en el ranking mundial de desarrolladores.
+              <strong> Nuestro objetivo es posicionar a los mexicanos en el top 5 global.</strong>
+            </p>
+          </div>
+
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <Card className="border-0 shadow-lg">
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-2 text-xl">
+                    <TrendingUp className="h-6 w-6 text-brand-600" />
+                    Ranking Mundial de Desarrolladores 2024
+                  </CardTitle>
+                  <CardDescription>
+                    Número de desarrolladores por país (en millones)
+                  </CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <div className="space-y-4">
+                    {[
+                      { country: "🇺🇸 Estados Unidos", developers: "4.3M", rank: 1, bar: "100%" },
+                      { country: "🇮🇳 India", developers: "4.0M", rank: 2, bar: "93%" },
+                      { country: "🇨🇳 China", developers: "2.0M", rank: 3, bar: "47%" },
+                      { country: "🇩🇪 Alemania", developers: "901K", rank: 4, bar: "21%" },
+                      { country: "🇬🇧 Reino Unido", developers: "813K", rank: 5, bar: "19%" },
+                      { country: "🇫🇷 Francia", developers: "568K", rank: 6, bar: "13%" },
+                      { country: "🇨🇦 Canadá", developers: "519K", rank: 7, bar: "12%" },
+                      { country: "🇧🇷 Brasil", developers: "500K", rank: 8, bar: "12%" },
+                      { country: "🇯🇵 Japón", developers: "454K", rank: 9, bar: "11%" },
+                      { country: "🇦🇺 Australia", developers: "423K", rank: 10, bar: "10%" },
+                      { country: "🇲🇽 México", developers: "385K", rank: 11, bar: "9%", highlight: true },
+                    ].map((item) => (
+                      <div
+                        key={item.rank}
+                        className={`flex items-center justify-between p-3 rounded-lg transition-all ${
+                          item.highlight
+                            ? 'bg-brand-50 border-2 border-brand-200 shadow-md'
+                            : 'bg-gray-50 hover:bg-gray-100'
+                        }`}
+                      >
+                        <div className="flex items-center gap-3">
+                          <Badge
+                            variant={item.highlight ? "default" : "outline"}
+                            className={`min-w-fit ${item.highlight ? 'bg-brand-600' : ''}`}
+                          >
+                            #{item.rank}
+                          </Badge>
+                          <span className={`font-medium ${item.highlight ? 'text-brand-700' : 'text-gray-700'}`}>
+                            {item.country}
+                          </span>
+                        </div>
+                        <div className="flex items-center gap-3">
+                          <div className="w-20 bg-gray-200 rounded-full h-2">
+                            <div
+                              className={`h-2 rounded-full ${item.highlight ? 'bg-brand-600' : 'bg-gray-400'}`}
+                              style={{ width: item.bar }}
+                            ></div>
+                          </div>
+                          <span className={`font-bold min-w-fit ${item.highlight ? 'text-brand-600' : 'text-gray-600'}`}>
+                            {item.developers}
+                          </span>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+
+            <div className="space-y-6">
+              <Card className="border-0 shadow-lg bg-gradient-to-br from-brand-500 to-tech-blue text-white">
+                <CardHeader>
+                  <CardTitle className="text-2xl text-white">
+                    🎯 Nuestra Meta: Top 5 Mundial
+                  </CardTitle>
+                  <CardDescription className="text-white/90">
+                    Elevando el talento mexicano al siguiente nivel
+                  </CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <div className="space-y-4">
+                    <div className="flex items-center justify-between">
+                      <span className="text-white/90">Posición Actual:</span>
+                      <Badge className="bg-white/20 text-white border-white/30">
+                        #11 Mundial
+                      </Badge>
+                    </div>
+                    <div className="flex items-center justify-between">
+                      <span className="text-white/90">Meta 2025:</span>
+                      <Badge className="bg-yellow-400 text-yellow-900">
+                        #8 Mundial
+                      </Badge>
+                    </div>
+                    <div className="flex items-center justify-between">
+                      <span className="text-white/90">Meta 2027:</span>
+                      <Badge className="bg-green-400 text-green-900">
+                        #5 Mundial
+                      </Badge>
+                    </div>
+                    <div className="mt-6 p-4 bg-white/10 rounded-lg">
+                      <p className="text-sm text-white/90">
+                        <strong>¿Cómo lo lograremos?</strong> Capacitando desarrolladores bilingües
+                        con habilidades técnicas de clase mundial y comunicación internacional.
+                      </p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="border-0 shadow-lg">
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-2">
+                    <Globe className="h-5 w-5 text-tech-green" />
+                    Oportunidad para México
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <div className="space-y-3">
+                    <div className="flex items-center gap-2">
+                      <CheckCircle className="h-4 w-4 text-tech-green" />
+                      <span className="text-sm">385K desarrolladores actuales</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <CheckCircle className="h-4 w-4 text-tech-green" />
+                      <span className="text-sm">Crecimiento del 15% anual</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <CheckCircle className="h-4 w-4 text-tech-green" />
+                      <span className="text-sm">Zona horaria ventajosa para EEUU</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <CheckCircle className="h-4 w-4 text-tech-green" />
+                      <span className="text-sm">Costos competitivos vs otros países</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <CheckCircle className="h-4 w-4 text-tech-green" />
+                      <span className="text-sm">Talento joven y adaptable</span>
+                    </div>
+                  </div>
+                  <div className="mt-4 p-3 bg-brand-50 rounded-lg">
+                    <p className="text-sm text-brand-700 font-medium">
+                      💡 Con formación bilingüe, México puede superar a países
+                      como Japón y Australia en los próximos 3 años.
+                    </p>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Course Timeline */}
+      <section className="py-20 px-4 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <Badge className="mb-4 bg-brand-100 text-brand-700">
@@ -312,7 +475,7 @@ export default function Index() {
                     ))}
                   </div>
                   <p className="text-sm text-gray-500 mt-4">
-                    💡 Un perfil bilingüe puede aumentar tu acceso a estos rangos salariales y abrir puertas en mercados internacionales.
+                    �� Un perfil bilingüe puede aumentar tu acceso a estos rangos salariales y abrir puertas en mercados internacionales.
                   </p>
                 </CardContent>
               </Card>
