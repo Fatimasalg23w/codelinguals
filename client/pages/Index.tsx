@@ -58,7 +58,7 @@ export default function Index() {
       color: "bg-red-500",
       weeks: [
         { week: 17, content: "Protocolos básicos, puertos, VPN, proxies" },
-        { week: 18, content: "Sniffers, firewalls, logs + análisis con Wireshark" },
+        { week: 18, content: "Sniffers, firewalls, logs + análisis con Wireshark + OWASP" },
         { week: 19, content: "Docker + contenedores en proyectos" },
         { week: 20, content: "AWS Cloud + Proyecto deploy con EC2 + S3" }
       ]
