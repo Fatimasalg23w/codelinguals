@@ -178,10 +178,6 @@ export default function Index() {
               <BookOpen className="mr-2 h-5 w-5" />
               Inscríbete Ahora
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8 py-3">
-              <Calendar className="mr-2 h-5 w-5" />
-              Ver Programa Completo
-            </Button>
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
