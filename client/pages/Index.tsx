@@ -177,7 +177,7 @@ export default function Index() {
           </div>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <Button size="lg" className="bg-white text-brand-600 hover:bg-white/90 text-lg px-8 py-3">
+            <Button size="lg" className="bg-white text-emerald-600 hover:bg-white/90 text-lg px-8 py-3">
               <BookOpen className="mr-2 h-5 w-5" />
               Inscríbete Ahora
             </Button>
@@ -254,7 +254,7 @@ export default function Index() {
           </div>
 
           <div className="mb-16">
-            <Card className="border-0 shadow-xl bg-gradient-to-r from-tech-blue to-brand-600 text-white">
+            <Card className="border-0 shadow-xl bg-gradient-to-r from-emerald-600 to-green-700 text-white">
               <CardContent className="p-8">
                 <div className="text-center mb-8">
                   <h3 className="text-2xl font-bold mb-4">
@@ -393,7 +393,7 @@ export default function Index() {
             </Card>
           </div>
 
-          <Card className="border-0 shadow-xl bg-gradient-to-r from-brand-600 to-tech-blue text-white">
+          <Card className="border-0 shadow-xl bg-gradient-to-r from-emerald-600 to-green-700 text-white">
             <CardContent className="p-8">
               <div className="text-center">
                 <h3 className="text-2xl font-bold mb-4">
@@ -865,7 +865,7 @@ export default function Index() {
       </section>
 
       {/* Call to Action */}
-      <section className="py-20 px-4 bg-gradient-to-r from-brand-600 via-brand-500 to-tech-blue">
+      <section className="py-20 px-4 bg-gradient-to-r from-emerald-600 via-green-500 to-emerald-700">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
             ¡Inscríbete hoy y conviértete en un desarrollador Fullstack sin fronteras!
@@ -876,7 +876,7 @@ export default function Index() {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-            <Button size="lg" className="bg-white text-brand-600 hover:bg-white/90 text-lg px-8 py-3">
+            <Button size="lg" className="bg-white text-emerald-600 hover:bg-white/90 text-lg px-8 py-3">
               <Star className="mr-2 h-5 w-5" />
               Comenzar Ahora
             </Button>
@@ -895,7 +895,7 @@ export default function Index() {
             <div>
               <h3 className="text-xl font-bold mb-4">CODELINGUALS.MX</h3>
               <p className="text-gray-400 mb-4">
-                Transformando vidas a través de la educaci��n tecnológica bilingüe.
+                Transformando vidas a través de la educación tecnológica bilingüe.
               </p>
               <div className="flex gap-4">
                 <Badge variant="outline" className="border-brand-500 text-brand-400">
