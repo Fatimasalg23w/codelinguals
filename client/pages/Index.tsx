@@ -164,7 +164,7 @@ export default function Index() {
               <div className="w-32 h-1 bg-white/70 mx-auto rounded-full"></div>
             </div>
             <h2 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
-              Curso Fullstack Bilingüe
+              Curso Fullstack Biling��e
               <span className="block text-2xl md:text-4xl font-normal text-white/90 mt-2">
                 Desarrolla sin fronteras
               </span>
@@ -689,7 +689,10 @@ export default function Index() {
                   key={month.month}
                   variant={selectedMonth === month.month ? "default" : "outline"}
                   onClick={() => setSelectedMonth(month.month)}
-                  className="mb-2"
+                  className={`mb-2 ${selectedMonth === month.month
+                    ? `${month.color.replace('bg-', 'bg-')} text-white border-0`
+                    : `border-green-500 text-green-600 hover:bg-green-50`
+                  }`}
                 >
                   Mes {month.month}
                 </Button>
