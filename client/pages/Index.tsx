@@ -11,7 +11,7 @@ export default function Index() {
     {
       month: 1,
       title: "Fundamentos y Bases Técnicas",
-      color: "bg-tech-blue",
+      color: "bg-green-400",
       weeks: [
         { week: 1, content: "HTML, CSS, JS + Proyecto de landing page" },
         { week: 2, content: "Dise��o responsivo + Figma + Media queries" },
@@ -22,7 +22,7 @@ export default function Index() {
     {
       month: 2,
       title: "Frontend Dinámico",
-      color: "bg-tech-green",
+      color: "bg-green-500",
       weeks: [
         { week: 5, content: "React básico + Hooks" },
         { week: 6, content: "React avanzado + routing + proyecto SPA" },
@@ -33,7 +33,7 @@ export default function Index() {
     {
       month: 3,
       title: "Backend Funcional",
-      color: "bg-tech-purple",
+      color: "bg-green-600",
       weeks: [
         { week: 9, content: "Node.js + Express" },
         { week: 10, content: "PHP + Laravel (estructura backend alternativa)" },
@@ -44,7 +44,7 @@ export default function Index() {
     {
       month: 4,
       title: "Bases de Datos SQL + NoSQL",
-      color: "bg-tech-orange",
+      color: "bg-emerald-400",
       weeks: [
         { week: 13, content: "MySQL profundo + queries optimizados" },
         { week: 14, content: "PostgreSQL + diseño relacional" },
@@ -55,7 +55,7 @@ export default function Index() {
     {
       month: 5,
       title: "Seguridad en Red + DevOps",
-      color: "bg-red-500",
+      color: "bg-emerald-500",
       weeks: [
         { week: 17, content: "Protocolos básicos, puertos, VPN, proxies" },
         { week: 18, content: "Sniffers, firewalls, logs + análisis con Wireshark + OWASP" },
@@ -66,7 +66,7 @@ export default function Index() {
     {
       month: 6,
       title: "Arquitectura & Escalabilidad",
-      color: "bg-indigo-500",
+      color: "bg-emerald-600",
       weeks: [
         { week: 21, content: "MVC y estructuras de diseño" },
         { week: 22, content: "Microservicios + API Gateway básico" },
@@ -77,7 +77,7 @@ export default function Index() {
     {
       month: 7,
       title: "Preparación Certificaciones",
-      color: "bg-yellow-500",
+      color: "bg-green-700",
       weeks: [
         { week: 25, content: "Roadmap y práctica para MySQL Developer Cert" },
         { week: 26, content: "Práctica de queries + examen simulado SQL" },
@@ -88,7 +88,7 @@ export default function Index() {
     {
       month: 8,
       title: "FAANG + Algoritmos aplicados",
-      color: "bg-pink-500",
+      color: "bg-emerald-700",
       weeks: [
         { week: 29, content: "Two Pointers + proyecto real" },
         { week: 30, content: "Sliding Window, DFS + dashboard jerárquico" },
@@ -99,7 +99,7 @@ export default function Index() {
     {
       month: 9,
       title: "Mock Interviews + Portafolio Técnico",
-      color: "bg-teal-500",
+      color: "bg-green-800",
       weeks: [
         { week: 33, content: "Estructura de entrevistas técnicas" },
         { week: 34, content: "Algoritmos simulados en tiempo real" },
@@ -345,7 +345,7 @@ export default function Index() {
                   </div>
                   <div className="border border-gray-200 rounded-lg p-3">
                     <div className="font-medium text-sm text-gray-900 mb-1">
-                      ✅ Scrum Foundations Professional Certificate - CertiProf
+                      �� Scrum Foundations Professional Certificate - CertiProf
                     </div>
                     <div className="text-xs text-gray-600">
                       Principios Agile, roles de Scrum, eventos y artefactos
