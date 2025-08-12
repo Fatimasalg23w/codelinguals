@@ -814,7 +814,7 @@ export default function Index() {
             <div className="grid grid-cols-2 gap-6">
               <Card className="border-0 shadow-lg text-center">
                 <CardHeader className="pb-2">
-                  <div className="mx-auto w-12 h-12 bg-brand-100 rounded-full flex items-center justify-center text-brand-600 mb-2">
+                  <div className="mx-auto w-12 h-12 bg-green-100 rounded-full flex items-center justify-center text-green-600 mb-2">
                     <Laptop className="h-6 w-6" />
                   </div>
                   <CardTitle className="text-lg">Desarrollo Web</CardTitle>
@@ -826,7 +826,7 @@ export default function Index() {
 
               <Card className="border-0 shadow-lg text-center">
                 <CardHeader className="pb-2">
-                  <div className="mx-auto w-12 h-12 bg-brand-100 rounded-full flex items-center justify-center text-brand-600 mb-2">
+                  <div className="mx-auto w-12 h-12 bg-green-100 rounded-full flex items-center justify-center text-green-600 mb-2">
                     <Shield className="h-6 w-6" />
                   </div>
                   <CardTitle className="text-lg">Ciberseguridad</CardTitle>
@@ -838,7 +838,7 @@ export default function Index() {
 
               <Card className="border-0 shadow-lg text-center">
                 <CardHeader className="pb-2">
-                  <div className="mx-auto w-12 h-12 bg-brand-100 rounded-full flex items-center justify-center text-brand-600 mb-2">
+                  <div className="mx-auto w-12 h-12 bg-green-100 rounded-full flex items-center justify-center text-green-600 mb-2">
                     <Database className="h-6 w-6" />
                   </div>
                   <CardTitle className="text-lg">Bases de Datos</CardTitle>
@@ -850,7 +850,7 @@ export default function Index() {
 
               <Card className="border-0 shadow-lg text-center">
                 <CardHeader className="pb-2">
-                  <div className="mx-auto w-12 h-12 bg-brand-100 rounded-full flex items-center justify-center text-brand-600 mb-2">
+                  <div className="mx-auto w-12 h-12 bg-green-100 rounded-full flex items-center justify-center text-green-600 mb-2">
                     <Cloud className="h-6 w-6" />
                   </div>
                   <CardTitle className="text-lg">Cloud & DevOps</CardTitle>
@@ -898,7 +898,7 @@ export default function Index() {
                 Transformando vidas a través de la educación tecnológica bilingüe.
               </p>
               <div className="flex gap-4">
-                <Badge variant="outline" className="border-brand-500 text-brand-400">
+                <Badge variant="outline" className="border-green-500 text-green-400">
                   Ciudad de México
                 </Badge>
               </div>
