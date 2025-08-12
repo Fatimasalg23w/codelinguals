@@ -877,10 +877,6 @@ export default function Index() {
               <Star className="mr-2 h-5 w-5" />
               Comenzar Ahora
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8 py-3">
-              <Briefcase className="mr-2 h-5 w-5" />
-              Solicitar Información
-            </Button>
           </div>
           
           <div className="text-white/80 text-sm">
