@@ -261,7 +261,7 @@ export default function Index() {
                     ⏰ Metodología de Aprendizaje: 2 Horas Diarias
                   </h3>
                   <p className="text-white/90 max-w-2xl mx-auto">
-                    Estructura optimizada para maximizar tu aprendizaje y dominio del inglés técnico
+                    Estructura optimizada para maximizar tu aprendizaje y dominio del ingl��s técnico
                   </p>
                 </div>
                 <div className="grid md:grid-cols-3 gap-6">
@@ -475,11 +475,11 @@ export default function Index() {
                       >
                         <div className="flex items-center gap-3">
                           <span className="text-lg">{item.flag}</span>
-                          <span className={`font-medium ${item.highlight ? 'text-brand-700' : 'text-gray-700'}`}>
+                          <span className={`font-medium ${item.highlight ? 'text-green-700' : 'text-gray-700'}`}>
                             {item.country}
                           </span>
                         </div>
-                        <span className={`font-bold ${item.highlight ? 'text-brand-600' : 'text-gray-600'}`}>
+                        <span className={`font-bold ${item.highlight ? 'text-green-600' : 'text-gray-600'}`}>
                           {item.developers}
                         </span>
                       </div>
