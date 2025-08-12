@@ -394,11 +394,11 @@ export default function Index() {
             <CardContent className="p-8">
               <div className="text-center">
                 <h3 className="text-2xl font-bold mb-4">
-                  🏆 Preparación para Empresas de Elite Tecnológica
+                  🏆 Preparación para Empresas FAANG
                 </h3>
                 <p className="text-white/90 mb-6 max-w-3xl mx-auto">
-                  Domina los algoritmos y estructuras de datos que evalúan las empresas tecnológicas
-                  más prestigiosas del mundo. Entrena con problemas reales de entrevistas técnicas.
+                  Domina los algoritmos y estructuras de datos que evalúan Facebook, Apple, Amazon,
+                  Netflix y Google. Entrena con problemas reales de entrevistas técnicas FAANG.
                 </p>
                 <div className="grid md:grid-cols-4 gap-4 text-sm">
                   <div className="bg-white/10 rounded-lg p-3">
