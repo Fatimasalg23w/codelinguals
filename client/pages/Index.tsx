@@ -208,7 +208,7 @@ export default function Index() {
       <section className="py-20 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <Badge className="mb-4 bg-brand-100 text-brand-700">
+            <Badge className="mb-4 bg-green-100 text-green-700">
               Ventajas Exclusivas
             </Badge>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -241,7 +241,7 @@ export default function Index() {
       <section className="py-20 px-4 bg-gradient-to-br from-brand-50 to-tech-blue/10">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <Badge className="mb-4 bg-brand-600 text-white">
+            <Badge className="mb-4 bg-green-600 text-white">
               Ventajas Profesionales
             </Badge>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -431,7 +431,7 @@ export default function Index() {
       <section className="py-20 px-4 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <Badge className="mb-4 bg-brand-100 text-brand-700">
+            <Badge className="mb-4 bg-green-100 text-green-700">
               Posicionamiento Global
             </Badge>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -671,7 +671,7 @@ export default function Index() {
       <section className="py-20 px-4 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <Badge className="mb-4 bg-brand-100 text-brand-700">
+            <Badge className="mb-4 bg-green-100 text-green-700">
               Programa Académico
             </Badge>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -780,7 +780,7 @@ export default function Index() {
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <Badge className="mb-4 bg-brand-100 text-brand-700">
+              <Badge className="mb-4 bg-green-100 text-green-700">
                 Sobre CODELINGUALS.MX
               </Badge>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
