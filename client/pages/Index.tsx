@@ -469,7 +469,7 @@ export default function Index() {
                         key={item.rank}
                         className={`flex items-center justify-between p-3 rounded-lg ${
                           item.highlight
-                            ? 'bg-brand-50 border-2 border-brand-200'
+                            ? 'bg-green-50 border-2 border-green-200'
                             : 'bg-gray-50'
                         }`}
                       >
@@ -545,7 +545,7 @@ export default function Index() {
                         key={item.rank}
                         className={`flex items-center justify-between p-3 rounded-lg transition-all ${
                           item.highlight
-                            ? 'bg-brand-50 border-2 border-brand-200 shadow-md'
+                            ? 'bg-green-50 border-2 border-green-200 shadow-md'
                             : 'bg-gray-50 hover:bg-gray-100'
                         }`}
                       >
