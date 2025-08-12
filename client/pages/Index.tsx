@@ -110,7 +110,7 @@ export default function Index() {
     {
       month: 10,
       title: "Consolidación + Proyecto Final",
-      color: "bg-emerald-500",
+      color: "bg-emerald-800",
       weeks: [
         { week: 37, content: "Proyecto fullstack integrador: App con diseño responsivo" },
         { week: 38, content: "Consumo de APIs + Seguridad con login/roles" },
@@ -345,7 +345,7 @@ export default function Index() {
                   </div>
                   <div className="border border-gray-200 rounded-lg p-3">
                     <div className="font-medium text-sm text-gray-900 mb-1">
-                      �� Scrum Foundations Professional Certificate - CertiProf
+                      ✅ Scrum Foundations Professional Certificate - CertiProf
                     </div>
                     <div className="text-xs text-gray-600">
                       Principios Agile, roles de Scrum, eventos y artefactos
