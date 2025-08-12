@@ -579,7 +579,7 @@ export default function Index() {
             </div>
 
             <div className="space-y-6">
-              <Card className="border-0 shadow-lg bg-gradient-to-br from-brand-500 to-tech-blue text-white">
+              <Card className="border-0 shadow-lg bg-gradient-to-br from-green-500 to-emerald-600 text-white">
                 <CardHeader>
                   <CardTitle className="text-2xl text-white">
                     🎯 Nuestra Meta: Latinos en Top 5 Mundial
