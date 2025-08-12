@@ -552,7 +552,7 @@ export default function Index() {
                         <div className="flex items-center gap-3">
                           <Badge
                             variant={item.highlight ? "default" : "outline"}
-                            className={`min-w-fit ${item.highlight ? 'bg-brand-600' : ''}`}
+                            className={`min-w-fit ${item.highlight ? 'bg-green-600' : ''}`}
                           >
                             #{item.rank}
                           </Badge>
@@ -563,7 +563,7 @@ export default function Index() {
                         <div className="flex items-center gap-3">
                           <div className="w-20 bg-gray-200 rounded-full h-2">
                             <div
-                              className={`h-2 rounded-full ${item.highlight ? 'bg-brand-600' : 'bg-gray-400'}`}
+                              className={`h-2 rounded-full ${item.highlight ? 'bg-green-600' : 'bg-gray-400'}`}
                               style={{ width: item.bar }}
                             ></div>
                           </div>
