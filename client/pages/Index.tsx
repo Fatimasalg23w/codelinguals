@@ -485,7 +485,7 @@ export default function Index() {
                       </div>
                     ))}
                   </div>
-                  <div className="bg-gradient-to-br from-tech-orange to-yellow-500 text-white p-6 rounded-lg">
+                  <div className="bg-gradient-to-br from-green-500 to-emerald-600 text-white p-6 rounded-lg">
                     <h3 className="text-lg font-bold mb-4">🎯 Misión Latinoamericana</h3>
                     <div className="space-y-3 text-sm">
                       <p>
