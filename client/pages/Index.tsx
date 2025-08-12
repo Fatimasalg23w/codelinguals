@@ -153,19 +153,22 @@ export default function Index() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-white via-brand-50 to-brand-100">
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-gradient-to-r from-brand-600 via-brand-500 to-tech-blue py-20 px-4">
+      <section className="relative overflow-hidden bg-gradient-to-r from-emerald-600 via-green-500 to-emerald-700 py-20 px-4">
         <div className="absolute inset-0 bg-black/10"></div>
         <div className="relative max-w-7xl mx-auto text-center">
           <div className="mb-8">
-            <Badge className="mb-4 bg-white/20 text-white border-white/30 backdrop-blur-sm">
-              CODELINGUALS.MX
-            </Badge>
-            <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
+            <div className="mb-6">
+              <h1 className="text-6xl md:text-8xl font-black text-white mb-2 tracking-wider font-mono shadow-2xl">
+                CODELINGUALS.MX
+              </h1>
+              <div className="w-32 h-1 bg-white/70 mx-auto rounded-full"></div>
+            </div>
+            <h2 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
               Curso Fullstack Bilingüe
               <span className="block text-2xl md:text-4xl font-normal text-white/90 mt-2">
                 Desarrolla sin fronteras
               </span>
-            </h1>
+            </h2>
             <p className="text-xl text-white/90 max-w-3xl mx-auto mb-8">
               En un mundo digital sin fronteras, dominar el desarrollo web no es suficiente. 
               Prepárate para ser el profesional que las empresas buscan: capaz de crear, 
@@ -892,7 +895,7 @@ export default function Index() {
             <div>
               <h3 className="text-xl font-bold mb-4">CODELINGUALS.MX</h3>
               <p className="text-gray-400 mb-4">
-                Transformando vidas a través de la educación tecnológica bilingüe.
+                Transformando vidas a través de la educaci��n tecnológica bilingüe.
               </p>
               <div className="flex gap-4">
                 <Badge variant="outline" className="border-brand-500 text-brand-400">
