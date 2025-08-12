@@ -223,7 +223,7 @@ export default function Index() {
             {benefits.map((benefit, index) => (
               <Card key={index} className="border-0 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <CardHeader className="text-center">
-                  <div className="mx-auto w-12 h-12 bg-brand-100 rounded-full flex items-center justify-center text-brand-600 mb-4">
+                  <div className="mx-auto w-12 h-12 bg-green-100 rounded-full flex items-center justify-center text-green-600 mb-4">
                     {benefit.icon}
                   </div>
                   <CardTitle className="text-lg">{benefit.title}</CardTitle>
@@ -300,7 +300,7 @@ export default function Index() {
             <Card className="border-0 shadow-lg">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2 text-xl">
-                  <Briefcase className="h-6 w-6 text-brand-600" />
+                  <Briefcase className="h-6 w-6 text-green-600" />
                   Asesoría en Entrevistas
                 </CardTitle>
               </CardHeader>
@@ -329,7 +329,7 @@ export default function Index() {
             <Card className="border-0 shadow-lg">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2 text-xl">
-                  <Star className="h-6 w-6 text-brand-600" />
+                  <Star className="h-6 w-6 text-green-600" />
                   Certificaciones Incluidas
                 </CardTitle>
               </CardHeader>
@@ -366,7 +366,7 @@ export default function Index() {
             <Card className="border-0 shadow-lg">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2 text-xl">
-                  <Code className="h-6 w-6 text-brand-600" />
+                  <Code className="h-6 w-6 text-green-600" />
                   Entorno Empresarial Real
                 </CardTitle>
               </CardHeader>
