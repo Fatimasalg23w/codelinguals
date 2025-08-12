@@ -261,7 +261,7 @@ export default function Index() {
                     ⏰ Metodología de Aprendizaje: 2 Horas Diarias
                   </h3>
                   <p className="text-white/90 max-w-2xl mx-auto">
-                    Estructura optimizada para maximizar tu aprendizaje y dominio del ingl��s técnico
+                    Estructura optimizada para maximizar tu aprendizaje y dominio del inglés técnico
                   </p>
                 </div>
                 <div className="grid md:grid-cols-3 gap-6">
@@ -519,7 +519,7 @@ export default function Index() {
               <Card className="border-0 shadow-lg">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2 text-xl">
-                    <TrendingUp className="h-6 w-6 text-brand-600" />
+                    <TrendingUp className="h-6 w-6 text-green-600" />
                     Ranking Mundial de Desarrolladores 2024
                   </CardTitle>
                   <CardDescription>
@@ -556,7 +556,7 @@ export default function Index() {
                           >
                             #{item.rank}
                           </Badge>
-                          <span className={`font-medium ${item.highlight ? 'text-brand-700' : 'text-gray-700'}`}>
+                          <span className={`font-medium ${item.highlight ? 'text-green-700' : 'text-gray-700'}`}>
                             {item.country}
                           </span>
                         </div>
@@ -567,7 +567,7 @@ export default function Index() {
                               style={{ width: item.bar }}
                             ></div>
                           </div>
-                          <span className={`font-bold min-w-fit ${item.highlight ? 'text-brand-600' : 'text-gray-600'}`}>
+                          <span className={`font-bold min-w-fit ${item.highlight ? 'text-green-600' : 'text-gray-600'}`}>
                             {item.developers}
                           </span>
                         </div>
@@ -654,8 +654,8 @@ export default function Index() {
                       <span className="text-sm">Talento joven y adaptable</span>
                     </div>
                   </div>
-                  <div className="mt-4 p-3 bg-brand-50 rounded-lg">
-                    <p className="text-sm text-brand-700 font-medium">
+                  <div className="mt-4 p-3 bg-green-50 rounded-lg">
+                    <p className="text-sm text-green-700 font-medium">
                       💡 Con formación bilingüe, los desarrolladores latinos pueden
                       posicionarse en el top 5 mundial para 2040.
                     </p>
@@ -749,7 +749,7 @@ export default function Index() {
               <Card className="border-0 shadow-lg">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
-                    <Users className="h-5 w-5 text-brand-600" />
+                    <Users className="h-5 w-5 text-green-600" />
                     ¿A quién va dirigido?
                   </CardTitle>
                 </CardHeader>
