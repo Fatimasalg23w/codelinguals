@@ -14,7 +14,7 @@ export default function Index() {
       color: "bg-green-400",
       weeks: [
         { week: 1, content: "HTML, CSS, JS + Proyecto de landing page" },
-        { week: 2, content: "Dise��o responsivo + Figma + Media queries" },
+        { week: 2, content: "Diseño responsivo + Figma + Media queries" },
         { week: 3, content: "Git + GitHub + Proyecto colaborativo en equipo" },
         { week: 4, content: "Introducción a algoritmos + listas, pilas, colas + proyecto visual" }
       ]
