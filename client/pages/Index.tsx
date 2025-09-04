@@ -418,28 +418,22 @@ export default function Index() {
                 <div className="space-y-4">
                   <div className="border border-gray-200 rounded-lg p-3">
                     <div className="font-medium text-sm text-gray-900 mb-1">
-                      ✅ MySQL Developer Certification - Oracle
-                    </div>
-                    <div className="text-xs text-gray-600">
-                      Expertise en diseño de bases de datos relacionales,
-                      consultas y optimización
-                    </div>
-                  </div>
-                  <div className="border border-gray-200 rounded-lg p-3">
-                    <div className="font-medium text-sm text-gray-900 mb-1">
                       ✅ Scrum Foundations Professional Certificate - CertiProf
                     </div>
                     <div className="text-xs text-gray-600">
                       Principios Agile, roles de Scrum, eventos y artefactos
                     </div>
                   </div>
-                  <div className="border border-gray-200 rounded-lg p-3">
+                  <div className="border border-dashed border-green-300 rounded-lg p-3 bg-green-50/30">
                     <div className="font-medium text-sm text-gray-900 mb-1">
-                      ✅ AWS Certified Developer - Associate
+                      Opcionales en planes más completos
                     </div>
-                    <div className="text-xs text-gray-600">
-                      Desarrollo y mantenimiento de aplicaciones en AWS
-                    </div>
+                    <ul className="text-xs text-gray-600 list-disc pl-5 space-y-1">
+                      <li>MySQL Developer Certification - Oracle</li>
+                      <li>AWS Certified Developer - Associate</li>
+                      <li>CompTIA Network+</li>
+                      <li>Google Cloud Professional Cloud Developer</li>
+                    </ul>
                   </div>
                 </div>
               </CardContent>
@@ -1037,10 +1031,9 @@ export default function Index() {
                   mercado global.
                 </p>
                 <p>
-                  Ofrecemos vías de aprendizaje accesibles en áreas clave como
-                  desarrollo web, ciberseguridad, programación de PLC y redes.
+                  Ofrecemos una vía de aprendizaje accesible enfocada en desarrollo web.
                   Nuestros programas están diseñados para apoyar a quienes
-                  desean explorar y crecer en estos dinámicos campos.
+                  desean ingresar y crecer en este campo dinámico.
                 </p>
                 <p>
                   Con sede en la Ciudad de México, reconocemos que, si bien la
@@ -1073,19 +1066,6 @@ export default function Index() {
                 </CardContent>
               </Card>
 
-              <Card className="border-0 shadow-lg text-center">
-                <CardHeader className="pb-2">
-                  <div className="mx-auto w-12 h-12 bg-green-100 rounded-full flex items-center justify-center text-green-600 mb-2">
-                    <Shield className="h-6 w-6" />
-                  </div>
-                  <CardTitle className="text-lg">Ciberseguridad</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-sm text-gray-600">
-                    Protocolos y herramientas de seguridad
-                  </p>
-                </CardContent>
-              </Card>
 
               <Card className="border-0 shadow-lg text-center">
                 <CardHeader className="pb-2">
@@ -1172,9 +1152,6 @@ export default function Index() {
               <h4 className="font-semibold mb-4">Programas</h4>
               <ul className="space-y-2 text-gray-400">
                 <li>Desarrollo Web Fullstack</li>
-                <li>Ciberseguridad</li>
-                <li>Programación PLC</li>
-                <li>Redes y Sistemas</li>
               </ul>
             </div>
 
