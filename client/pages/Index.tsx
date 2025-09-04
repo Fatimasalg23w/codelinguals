@@ -335,24 +335,24 @@ export default function Index() {
                 </div>
                 <div className="grid md:grid-cols-3 gap-6">
                   <div className="bg-white/10 rounded-lg p-6 text-center">
-                    <div className="text-3xl font-bold mb-2">60 min</div>
-                    <div className="font-medium mb-2">Teoría y Aplicación</div>
+                    <div className="text-3xl font-bold mb-2">30 min</div>
+                    <div className="font-medium mb-2">Teoría</div>
                     <div className="text-sm text-white/80">
                       Conceptos fundamentales con implementación práctica
                       inmediata
                     </div>
                   </div>
                   <div className="bg-white/10 rounded-lg p-6 text-center">
-                    <div className="text-3xl font-bold mb-2">30 min</div>
-                    <div className="font-medium mb-2">Práctica Dirigida</div>
+                    <div className="text-3xl font-bold mb-2">50 min</div>
+                    <div className="font-medium mb-2">Práctica en Español</div>
                     <div className="text-sm text-white/80">
                       Ejercicios hands-on para reforzar los conocimientos
                       adquiridos
                     </div>
                   </div>
                   <div className="bg-white/10 rounded-lg p-6 text-center">
-                    <div className="text-3xl font-bold mb-2">30 min</div>
-                    <div className="font-medium mb-2">Aplicación en Inglés</div>
+                    <div className="text-3xl font-bold mb-2">40 min</div>
+                    <div className="font-medium mb-2">Práctica en Inglés</div>
                     <div className="text-sm text-white/80">
                       Desarrollo de proyectos reales usando terminología técnica
                       en inglés
