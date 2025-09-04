@@ -1121,6 +1121,10 @@ export default function Index() {
             </Button>
           </div>
 
+          <div className="text-2xl font-bold text-white mb-2">
+            Desde $2,899 MXN
+          </div>
+
           <div className="text-white/80 text-sm">
             📍 Ciudad de México, México | 🌐 Programa Bilingüe | 💼 Garantía de
             Empleabilidad
@@ -1158,9 +1162,8 @@ export default function Index() {
             <div>
               <h4 className="font-semibold mb-4">Contacto</h4>
               <ul className="space-y-2 text-gray-400">
-                <li>📧 info@codelinguals.mx</li>
-                <li>📱 +52 55 XXXX XXXX</li>
-                <li>🌐 www.codelinguals.mx</li>
+                <li>📧 codelinguals@proton.me</li>
+                <li>📱 +5616726659</li>
                 <li>📍 Ciudad de México</li>
               </ul>
             </div>
