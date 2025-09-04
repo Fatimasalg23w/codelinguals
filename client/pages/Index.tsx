@@ -216,7 +216,7 @@ export default function Index() {
           <div className="mb-8">
             <div className="mb-6">
               <h1 className="text-6xl md:text-8xl font-black text-white mb-2 tracking-wider font-mono shadow-2xl">
-                CODELINGUALS.MX
+                CODELINGUALS MX
               </h1>
               <div className="w-32 h-1 bg-white/70 mx-auto rounded-full"></div>
             </div>
@@ -1024,14 +1024,14 @@ export default function Index() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <Badge className="mb-4 bg-green-100 text-green-700">
-                Sobre CODELINGUALS.MX
+                Sobre CODELINGUALS MX
               </Badge>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
                 Empoderando el Talento Tecnológico Mexicano
               </h2>
               <div className="prose prose-lg text-gray-600 space-y-4">
                 <p>
-                  En <strong>CODELINGUALS.MX</strong>, ofrecemos oportunidades
+                  En <strong>CODELINGUALS MX</strong>, ofrecemos oportunidades
                   de mentoría para principiantes que buscan ingresar a la
                   industria tecnológica. Nuestra misión es empoderar a las
                   personas, independientemente de su formación académica, para
@@ -1152,7 +1152,7 @@ export default function Index() {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-3 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">CODELINGUALS.MX</h3>
+              <h3 className="text-xl font-bold mb-4">CODELINGUALS MX</h3>
               <p className="text-gray-400 mb-4">
                 Transformando vidas a través de la educación tecnológica
                 bilingüe.
@@ -1185,7 +1185,7 @@ export default function Index() {
           </div>
 
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 CODELINGUALS.MX. Todos los derechos reservados.</p>
+            <p>&copy; 2024 CODELINGUALS MX. Todos los derechos reservados.</p>
           </div>
         </div>
       </footer>
