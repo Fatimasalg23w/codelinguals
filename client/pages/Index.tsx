@@ -1216,8 +1216,7 @@ export default function Index() {
           </div>
 
           <div className="text-white/80 text-sm">
-            📍 Ciudad de México, México | 🌐 Programa Bilingüe | 💼 Garantía de
-            Empleabilidad
+            📍 Ciudad de México, México | 🌐 Programa Bilingüe
           </div>
         </div>
       </section>
