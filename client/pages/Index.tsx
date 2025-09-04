@@ -1022,17 +1022,25 @@ export default function Index() {
       <section className="py-20 px-4 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
-            <Badge className="mb-4 bg-green-100 text-green-700">Elegibilidad</Badge>
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">¿Quién es elegible para esto?</h2>
+            <Badge className="mb-4 bg-green-100 text-green-700">
+              Elegibilidad
+            </Badge>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              ¿Quién es elegible para esto?
+            </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Ideal para personas sin conocimientos previos de programación que desean incursionar en el mundo tech
-              y que cuenten con un nivel de inglés A2.
+              Ideal para personas sin conocimientos previos de programación que
+              desean incursionar en el mundo tech y que cuenten con un nivel de
+              inglés A2.
             </p>
-            <p className="text-sm text-gray-500 mt-2">Se realiza examen de nivel.</p>
+            <p className="text-sm text-gray-500 mt-2">
+              Se realiza examen de nivel.
+            </p>
           </div>
 
           <p className="text-sm text-gray-700 mb-6 text-center">
-            Se evaluará con examen básico que puedan hacer una presentación básica y contestar preguntas que incluyan esos temas.
+            Se evaluará con examen básico que puedan hacer una presentación
+            básica y contestar preguntas que incluyan esos temas.
           </p>
 
           <div className="grid md:grid-cols-2 gap-6">
@@ -1042,12 +1050,18 @@ export default function Index() {
               </CardHeader>
               <CardContent>
                 <ul className="list-disc pl-5 space-y-2 text-gray-700 text-sm">
-                  <li>Presentarte y hablar de ti (nombre, edad, nacionalidad, ocupación)</li>
+                  <li>
+                    Presentarte y hablar de ti (nombre, edad, nacionalidad,
+                    ocupación)
+                  </li>
                   <li>Describir rutinas diarias y hábitos</li>
                   <li>Hablar sobre tu familia, amigos y relaciones</li>
                   <li>Expresar gustos, preferencias y opiniones simples</li>
                   <li>Pedir y dar direcciones</li>
-                  <li>Hablar sobre el clima, estaciones y actividades al aire libre</li>
+                  <li>
+                    Hablar sobre el clima, estaciones y actividades al aire
+                    libre
+                  </li>
                   <li>Conversar sobre planes, viajes y vacaciones</li>
                 </ul>
               </CardContent>
@@ -1055,13 +1069,23 @@ export default function Index() {
 
             <Card className="border-0 shadow-lg">
               <CardHeader>
-                <CardTitle className="text-xl">📚 Comprensión escrita y auditiva</CardTitle>
+                <CardTitle className="text-xl">
+                  📚 Comprensión escrita y auditiva
+                </CardTitle>
               </CardHeader>
               <CardContent>
                 <ul className="list-disc pl-5 space-y-2 text-gray-700 text-sm">
-                  <li>Leer y entender textos breves como anuncios, correos simples, instrucciones</li>
-                  <li>Escuchar conversaciones claras sobre temas familiares (compras, horarios, lugares)</li>
-                  <li>Captar información específica como fechas, precios o nombres</li>
+                  <li>
+                    Leer y entender textos breves como anuncios, correos
+                    simples, instrucciones
+                  </li>
+                  <li>
+                    Escuchar conversaciones claras sobre temas familiares
+                    (compras, horarios, lugares)
+                  </li>
+                  <li>
+                    Captar información específica como fechas, precios o nombres
+                  </li>
                 </ul>
               </CardContent>
             </Card>
