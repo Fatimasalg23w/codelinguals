@@ -1031,6 +1031,10 @@ export default function Index() {
             <p className="text-sm text-gray-500 mt-2">Se realiza examen de nivel.</p>
           </div>
 
+          <p className="text-sm text-gray-700 mb-6 text-center">
+            Se evaluará con examen básico que puedan hacer una presentación básica y contestar preguntas que incluyan esos temas.
+          </p>
+
           <div className="grid md:grid-cols-2 gap-6">
             <Card className="border-0 shadow-lg">
               <CardHeader>
