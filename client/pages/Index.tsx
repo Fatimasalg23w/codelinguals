@@ -1039,9 +1039,9 @@ export default function Index() {
                   mercado global.
                 </p>
                 <p>
-                  Ofrecemos una vía de aprendizaje accesible enfocada en desarrollo web.
-                  Nuestros programas están diseñados para apoyar a quienes
-                  desean ingresar y crecer en este campo dinámico.
+                  Ofrecemos una vía de aprendizaje accesible enfocada en
+                  desarrollo web. Nuestros programas están diseñados para apoyar
+                  a quienes desean ingresar y crecer en este campo dinámico.
                 </p>
                 <p>
                   Con sede en la Ciudad de México, reconocemos que, si bien la
@@ -1073,7 +1073,6 @@ export default function Index() {
                   </p>
                 </CardContent>
               </Card>
-
 
               <Card className="border-0 shadow-lg text-center">
                 <CardHeader className="pb-2">
