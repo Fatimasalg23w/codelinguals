@@ -236,11 +236,19 @@ export default function Index() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
             <Button
+              asChild
               size="lg"
               className="bg-white text-emerald-600 hover:bg-white/90 text-lg px-8 py-3"
             >
-              <BookOpen className="mr-2 h-5 w-5" />
-              Inscríbete Ahora
+              <a
+                href="https://wa.me/5616726659?text=Hola%20CODELINGUALS%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20curso%20Fullstack%20Biling%C3%BCe."
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Chatear por WhatsApp"
+              >
+                <BookOpen className="mr-2 h-5 w-5" />
+                Inscríbete Ahora
+              </a>
             </Button>
           </div>
 
